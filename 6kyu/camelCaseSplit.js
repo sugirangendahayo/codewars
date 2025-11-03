@@ -1,6 +1,6 @@
 function solution(string) {
   let newStr = "";
-  for (const [idx, str] of Array.from(string).entries()) {
+  for (const str of string) {
     if (str === str.toUpperCase()) {
       newStr += " ";
     }
